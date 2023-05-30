@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 import "../SavedShows/SavedShows.css";
 
 import "../index.css";
-import Moviecard from "../Components/Moviecard";
 import "../Components/Moviecard.css";
 
 const SavedShows = () => {

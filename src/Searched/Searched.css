@@ -1,0 +1,16 @@
+.searchedMain{
+    width: 100%;
+    background-color: #020d18;
+    min-height: 100vh;
+    
+}
+.searchedContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+    gap: 1rem;
+    width: 99%;
+    margin: 0 auto;
+    color: white;
+    padding: 5rem;
+    
+}

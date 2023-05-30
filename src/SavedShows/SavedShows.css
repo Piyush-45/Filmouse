@@ -1,0 +1,30 @@
+.savedShows-container{
+    background-color: #020d18;
+    width: 100%;
+    padding: 1rem;
+   
+    
+}
+
+.savedShows{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+    
+    /* gap */
+}
+
+
+.showCard {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+     gap: 2rem;
+     
+}
+.showCard h3{
+    color: white;
+    margin-top: 1rem;
+}
